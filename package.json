@@ -1,10 +1,11 @@
 {
-  "name": "portfolio",
+  "name": "own-gulp-setting",
   "version": "1.0.0",
-  "description": "",
+  "description": "Reusable Gulp setup for static HTML/Sass practice projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build:css": "gulp styles"
   },
   "author": "",
   "license": "ISC",
